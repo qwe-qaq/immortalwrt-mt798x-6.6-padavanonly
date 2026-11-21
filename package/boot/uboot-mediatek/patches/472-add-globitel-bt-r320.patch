@@ -39,13 +39,13 @@
 +		reset {
 +			label = "reset";
 +			linux,code = <KEY_RESTART>;
-+			gpios = <&pio 1 GPIO_ACTIVE_LOW>;
++			gpios = <&pinctrl 1 GPIO_ACTIVE_LOW>;
 +		};
 +
 +		wps {
 +			label = "wps";
 +			linux,code = <KEY_WPS_BUTTON>;
-+			gpios = <&pio 0 GPIO_ACTIVE_LOW>;
++			gpios = <&pinctrl 0 GPIO_ACTIVE_LOW>;
 +		};
 +	};
 +};
@@ -65,7 +65,7 @@
 +	mediatek,gmac-id = <0>;
 +	phy-mode = "2500base-x";
 +	mediatek,switch = "mt7531";
-+	reset-gpios = <&pio 39 GPIO_ACTIVE_HIGH>;
++	reset-gpios = <&pinctrl 39 GPIO_ACTIVE_HIGH>;
 +
 +	fixed-link {
 +		speed = <2500>;
@@ -73,7 +73,7 @@
 +	};
 +};
 +
-+&pio {
++&pinctrl {
 +	spic_pins: spi1-pins-func-1 {
 +		mux {
 +			function = "spi";
