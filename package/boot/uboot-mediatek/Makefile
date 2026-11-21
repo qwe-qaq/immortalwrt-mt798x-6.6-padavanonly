@@ -267,11 +267,11 @@ define U-Boot/mt7981_cmcc_a10
   DEPENDS:=+trusted-firmware-a-mt7981-spim-nand-ddr3
 endef
 
-define U-Boot/mt7981_bt_r320
-  NAME:=BT R320
+define U-Boot/mt7981_globitel_bt-r320
+  NAME:=Globitel BT-R320
   BUILD_SUBTARGET:=filogic
-  BUILD_DEVICES:=bt_r320
-  UBOOT_CONFIG:=mt7981_bt_r320
+  BUILD_DEVICES:=globitel_bt-r320
+  UBOOT_CONFIG:=mt7981_globitel_bt-r320
   UBOOT_IMAGE:=u-boot.fip
   BL2_BOOTDEV:=emmc
   BL2_SOC:=mt7981

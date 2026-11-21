@@ -83,6 +83,7 @@ platform_do_upgrade() {
     		nand_do_upgrade "$1"
     		;;
 	abt,asr3000|\
+	globitel,bt-r320|\
 	bananapi,bpi-r3|\
 	bananapi,bpi-r3-mini|\
 	bananapi,bpi-r4|\
@@ -279,6 +280,7 @@ platform_copy_config() {
 	jdcloud,re-cp-03|\
 	sl,3000-emmc|\
 	nradio,c8-668gl|\
+	globitel,bt-r320|\
 	bt,r320|\
 	bt,rb300|\
 	sn,r1|\
