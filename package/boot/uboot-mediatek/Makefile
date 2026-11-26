@@ -1132,6 +1132,7 @@ UBOOT_TARGETS := \
 	mt7981_gatonetworks_gdsp \
 	mt7981_glinet_gl-x3000 \
 	mt7981_glinet_gl-xe3000 \
+	mt7981_globitel_bt-r320 \
 	mt7981_h3c_magic-nx30-pro \
 	mt7981_imou_lc-hx3001 \
 	mt7981_jcg_q30-pro \
